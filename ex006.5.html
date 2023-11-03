@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Eventos DOM</title>
+</head>
+<body>
+    <header>
+        <div id="h1">
+            <h1>E O PIX??</h1>        
+            <p>Vai me mandar um pix de R$ 200.00 ?</p>
+        </div>
+    </header>
+    <main>
+        <div id="campo">
+            <div id="sim">
+                <a href="https://www.youtube.com/shorts/nrRbn9vI114">SIM</a>
+            </div>
+            <div id="ou">
+                ou
+            </div>
+            <div id="nao">
+                NÃO
+            </div>
+        </div>
+    
+    </main>
+
+    <script>
+        var nao = document.querySelector('#nao')
+        var nao_consegue = document.querySelector('#h1')
+        var sim = document.querySelector('#sim')
+        var ou = document.querySelector('#ou')
+
+        nao.addEventListener('click', clicar)
+        nao.addEventListener('mouseenter', entrar)        
+        nao.addEventListener('mouseout', sair) 
+
+        function clicar(){
+            nao.style.display = ('none')
+            nao_consegue.style.backgroundColor = ('rgba(128, 0, 0, 0.603)')
+            sim.style.backgroundColor = ('rgba(128, 0, 0, 0.603)')
+            nao_consegue.innerHTML = ('Não consegue né KKKKK, agora click em "SIM".')
+            ou.style.display = ('none')
+        }
+
+
+    </script>
+</body>
+</html>

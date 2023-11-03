@@ -1,0 +1,65 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    font-size: 1.2em;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    height: 100vh;
+    background-image: url(Pix-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+header{
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#h1{
+    width: 90vw;
+    height: 25vh;
+    background-color: rgba(123, 61, 139, 0.603);
+    border: 1px solid rgba(0, 0, 0, 0.733);
+    padding: 10px;
+    color: white;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.596);
+}
+main{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+
+}
+div#campo{
+    display: flex;
+}
+div#sim, div#nao{
+    background-color: rgba(123, 61, 139, 0.603);
+    border: 1px solid rgba(0, 0, 0, 0.733);
+    padding: 10px;
+    color: white;
+    font-size: 1.5em;
+
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.596);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+div#ou{
+    padding: 10px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.849);
+    color: white;
+
+}
+
